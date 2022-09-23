@@ -112,14 +112,16 @@ const deals = [
     to be itself, but use the `replace` method
     to replace the 15 with a 10.
 */
-
 //CODE HERE
 
-let newTitle = deals.title
+deals[0].title = deals[0].title.replace('15', '10')
 
-let answer = newTitle.replace('15', '10')
+console.log(deals[0])
 
-console.log(answer)
+
+
+
+
 
 /*
     The restaurant is going to continue its
@@ -136,8 +138,11 @@ console.log(answer)
 
 //CODE HERE
 
+deals[1].desc = deals[1].desc.replace('   ', '')
+deals[1].desc = deals[1].desc.replace('March', 'April')
 
 
+console.log(deals[1])
 
 
 

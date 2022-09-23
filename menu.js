@@ -37,6 +37,7 @@ const pizza = {
     price: 10,
     category: "entree",
     popularity: 4,
+    rating: 6,
     tags: ["gluten-free", "thin crust", "kids", "personal pan"]
 }
 
@@ -108,6 +109,7 @@ let foodArr = [
             price: 10,
             category: "entree",
             popularity: 7,
+            rating: 5,
             tags:  ["gluten-free", "thin crust", "kids", "personal pan"]
     },
     {
@@ -115,6 +117,7 @@ let foodArr = [
             price: 5,
             category: "side",
             popularity: 3,
+            rating:  4,
             tags:  ["gluten-free", "personal pan"]
     },
     {       
@@ -122,6 +125,7 @@ let foodArr = [
             price: 10,
             category: "entree",
             popularity: 6,
+            rating:  3,
             tags:  ["kids", "personal pan"]
     },
     {       
@@ -129,6 +133,7 @@ let foodArr = [
             price: 9,
             category: "entree",
             popularity: 1,
+            rating:  7,
             tags:  ["thin crust", "kids", "personal pan"]
     },
     {       
@@ -136,6 +141,7 @@ let foodArr = [
             price: 8,
             category: "desert",
             popularity: 1,
+            rating:  4,
             tags:  ["kids",]
 }
 ]
@@ -202,6 +208,28 @@ let tagArr = foodArr.filter( (pizza_obj, ) => pizza_obj.tags === "kids")
 */
 
 //CODE HERE
+
+
+const filterByProperty = (property, number, type) => {
+    let filteredArray = [];
+    if (type === "above" ) {
+        filteredArray = foodArr.filter((pizza_obj) => pizza_obj[property] > number)
+    } else {
+        filteredArray = foodArr.filter((pizza_obj) => pizza_obj[property] < number)
+    }
+    return filteredArray;
+}
+
+console.log(filterByProperty("price", 7, "above"))
+
+
+
+//name:  "Cookie",
+//            price: 8,
+//            category: "desert",
+//            popularity: 1,
+//            rating:  4,
+ //           tags:  ["kids",]
 
 
 /*
