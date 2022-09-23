@@ -1,0 +1,21 @@
+1.  Rocket Dollar - Rocket Dollar makes it easy to unlock retirement savings. 
+No longer trapped in traditional mutual funds, these savings can be used to fund a start-up, as a small business loan, 
+peer-to-peer lending, buy real-estate, and invest in cryptocurrency. 
+Founded in 2018, Rocket Dollar helps everyone access savings to follow their dreams.
+
+Stack:  JS, moment.js, Polyfill, HTML, jQuery, FontAwesome
+
+
+2. VineHealth - Vinehealth’s technology applies behavioural science and AI to deliver highly personalised patient support at scale; 
+thereby generating rich patient-reported data to inform health service delivery, drug development and research.
+
+Stack:  JS & HTML
+
+3.  Dataships - They specialize in data privacy compliance for SMEs and scaling start-ups. 
+They created a SaaS product that automates compliance with data privacy laws such as GDPR, CPRA (and many more). 
+They do it in a unique way! Their SaaS product helps companies comply with data privacy laws while also enabling them 
+to build healthy first party data relationships with their customers. They do this by putting the customer at the heart of their product. 
+Dataships allows companies to give their customers instant access to their personal data and marketing consents. 
+This makes them achieve compliance and also helps to build healthy data relationships, or as they are called them dataships.
+
+Stack:  Ubuntu, Nginx, Linux, Apache HTTP Server, DigitalOcean, Apache
